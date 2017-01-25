@@ -13,7 +13,7 @@ public class myapis {
     @ResponseBody
     String home() {
     	System.out.println("Received request for this api");
-        return "Hello World!";
+        return "Hello world!";
     }
     
     @RequestMapping(value="/greet/{name}", method = RequestMethod.GET)
